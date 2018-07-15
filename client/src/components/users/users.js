@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Button from '@material-ui/core/Button';
 import './user.css';
 
 class App extends Component {
@@ -17,7 +18,10 @@ class App extends Component {
   render() {
     return (
       <div >
-          Users Component
+          {'Users Component'}
+          <Button variant="contained" color="primary">
+            Hello World
+            </Button>
       </div>
     );
   }

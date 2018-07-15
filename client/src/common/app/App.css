@@ -1,5 +1,8 @@
 .App {
-  text-align: center;
+  background: url('../../images/splashwallpaper.jpeg')  no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  overflow: hidden;
 }
 
 .App-logo {
